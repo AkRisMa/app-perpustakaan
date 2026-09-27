@@ -43,8 +43,8 @@
         </tr>
 
         <tr>
-            <th>Kategori</th>
-            <td>{{ $book['kategori'] }}</td>
+            <th>ID Kategori</th>
+            {{ $book['kategori'] }}
         </tr>
     </table>
 @endsection
